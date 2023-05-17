@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:ital,wght@0,500;1,400&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+
+  <body>
+    <header id="home">
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li class="list-item">
+            <a href="#"
+              ><img src="./img/logo.png" alt="Logo" class="logo" />
+            </a>
+          </li>
+
+          <div class="list-group">
+            <li class="list-item">
+              <a href="#home" class="list-icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="nav-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#product" class="list-icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="nav-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#categories" class="list-icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="nav-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </div>
+
+          <li class="list-item">
+            <a href="#search" class="list-icon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="nav-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 8.25H7.5a2.25 2.25 0 00-2.25 2.25v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H15M9 12l3 3m0 0l3-3m-3 3V2.25"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="background">
+        <span class="background-text">Newest</span>
+        <div class="header-text">
+          <h1 class="heading-primary">Olios</h1>
+          <p class="describtion">Newest furtinure shop template</p>
+          <a href="#" class="btn-text">View more</a>
+        </div>
+        <div class="navigation">
+          <input
+            type="checkbox"
+            class="navigation__checkbox"
+            id="navi-toggle"
+          />
+          <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+          </label>
+
+          <div class="navigation__background">
+            <nav class="open-navigation">
+              <ul class="open-navigation__list">
+                <li class="open-navigation__list-item">
+                  <a href="#categories" class="list-item-content"
+                    ><span>Living room </span
+                    ><img src="./img/icon-5.png" alt=""
+                  /></a>
+                </li>
+                <li class="open-navigation__list-item">
+                  <a href="#product" class="list-item-content"
+                    ><span>Office </span><img src="./img/icon-1.png" alt=""
+                  /></a>
+                </li>
+                <li class="open-navigation__list-item">
+                  <a href="#" class="list-item-content"
+                    ><span>For kids </span><img src="./img/icon-3.png" alt=""
+                  /></a>
+                </li>
+                <li class="open-navigation__list-item">
+                  <a href="#" class="list-item-content"
+                    ><span>Kitchen</span><img src="./img/icon-2.png" alt=""
+                  /></a>
+                </li>
+                <li class="open-navigation__list-item">
+                  <a href="#" class="list-item-content"
+                    ><span>Accesories</span><img src="./img/icon-4.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+              <a href="#" class="btn">Show all categories</a>
+            </nav>
+          </div>
+        </div>
+        <div class="slider">
+          <ul class="slider-list">
+            <li class="slider-list-item">
+              <a href="#" class="slider-circle active"></a><span>&nbsp;</span>
+            </li>
+            <li class="slider-list-item">
+              <a href="#" class="slider-circle"></a><span>&nbsp;</span>
+            </li>
+            <li class="slider-list-item">
+              <a href="#" class="slider-circle"></a><span>&nbsp;</span>
+            </li>
+            <li class="slider-list-item">
+              <a href="#" class="slider-circle"></a><span>&nbsp;</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="categories" id="categories">
+      <div class="products">
+        <div class="main-heading-text">
+          <h1 class="heading-secondary">Products</h1>
+          <a href="#products-1" class="list-item-content"
+            ><span>Living room </span><img src="./img/icon-5.png" alt="icon"
+          /></a>
+        </div>
+        <div class="products-categories">
+          <div class="red-seat">
+            <img src="./img/red-seat.jpg" alt="Red seat" />
+            <p class="heading-tertiary">Red seat</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet.</p>
+            <p class="price">&#36;45</p>
+          </div>
+          <div class="white-table row">
+            <img
+              src="./img/white-table.jpg"
+              alt="White table"
+              class="table-img"
+            />
+            <div class="row-text">
+              <p class="heading-tertiary">White table</p>
+              <p class="paragraph">Lorem ipsum dolor sit amet.</p>
+              <p class="price">&#36;350</p>
+            </div>
+          </div>
+          <div class="red-seat">
+            <img src="./img/blue-seat.png" alt="Blue seat" />
+            <p class="heading-tertiary">Blue seat</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet.</p>
+            <p class="price">&#36;35</p>
+          </div>
+          <div class="red-seat row">
+            <img src="./img/modern-bed.jpg" alt="Modern bed" class="bed-img" />
+            <div class="row-text">
+              <p class="heading-tertiary">Modern bed</p>
+              <p class="paragraph">Lorem ipsum dolor sit amet.</p>
+              <p class="price">&#36;120</p>
+            </div>
+          </div>
+          <div class="red-seat">
+            <img src="./img/dark-seat.png" alt="Dark seat" />
+            <p class="heading-tertiary">dark seat</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet.</p>
+            <p class="price">&#36;50</p>
+          </div>
+        </div>
+        <a href="#" class="text-btn">Show more products</a>
+      </div>
+    </div>
+
+    <!--  SECTION PRODUCTS -->
+
+    <div class="product" id="product">
+      <div class="white-chair-box">
+        <p class="likes">
+          495
+          <span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="heart"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+              />
+            </svg>
+          </span>
+        </p>
+        <img src="./img/white-chair.png" alt="" class="white-chair" />
+        <ul class="icon-list">
+          <li class="icon-list-item flex-start">
+            <a href="#" class="icon-list-content"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="nav-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li class="icon-list-item flex-start">
+            <a href="#" class="icon-list-content"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="nav-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li class="icon-list-item flex-end">
+            <a href="#" class="icon-list-content"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="nav-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li class="icon-list-item">
+            <a href="#" class="icon-list-content"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="nav-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="product-details">
+        <div class="product-details-container">
+          <div class="main-heading-text margin-0">
+            <h1 class="heading-secondary">Products</h1>
+            <a href="#products-1" class="list-item-content"
+              ><span>Living room </span><img src="./img/icon-5.png" alt="icon"
+            /></a>
+          </div>
+          <p class="heading-secondary">
+            <span>White seat</span> &#8211; office
+          </p>
+          <p class="paragraph-wrapped">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos totam
+            et saepe? Deserunt, cum.
+          </p>
+          <div class="price-box">
+            <div class="add-cart">
+              <p class="cost">Cost</p>
+              <p class="cost-big">&#36;65<span>&#36;90</span></p>
+            </div>
+            <div class="add-cart">
+              <p class="cost">Quantity</p>
+              <input
+                type="number"
+                id="quantity"
+                name="quantity"
+                min="1"
+                max="10"
+                placeholder="1"
+                class="input"
+              />
+              <button type="submit" class="cart-btn">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="recomended">
+        <div class="rotate-div">
+          <p class="paragraph-rotate">Recomended</p>
+        </div>
+        <div class="chair-describtion-box">
+          <img
+            src="./img/dark-seat.png "
+            alt="Dark seat"
+            class="red-seat img-recomended"
+          />
+          <div class="chair-describtion">
+            <p class="heading-tertiary">Dark Seat</p>
+            <div class="paragraph">Lorem ipsum dolor sit amet.</div>
+          </div>
+        </div>
+        <div class="chair-describtion-box">
+          <img
+            src="./img/blue-seat.png"
+            alt="blue seat"
+            class="red-seat img-recomended"
+          />
+          <div class="chair-describtion">
+            <p class="heading-tertiary">Blue seat</p>
+            <div class="paragraph">Lorem ipsum dolor sit amet.</div>
+          </div>
+        </div>
+        <div class="chair-describtion-box">
+          <img
+            src="./img/red-seat.png"
+            alt="Dark seat"
+            class="red-seat img-recomended"
+          />
+          <div class="chair-describtion">
+            <p class="heading-tertiary">Red seat</p>
+            <div class="paragraph">Lorem ipsum dolor sit amet.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  SECTION SEARCH -->
+    <div class="search" id="search">
+      <div class="search-container">
+        <div class="form">
+          <input type="search" class="search-input" placeholder="Red seat" />
+          <label for="search" class="search-label"
+            >Type product that you are looking for</label
+          >
+        </div>
+        <div class="search-seat-box">
+          <div class="search_seat-content">
+            <img src="./img/red-seat.jpg" alt="Red seat" class="red-seat-big" />
+            <p>Red Seat</p>
+          </div>
+          <div class="search_seat-content">
+            <img src="./img/dark-seat.png" alt="Red seat" />
+            <p>Dark Seat</p>
+          </div>
+        </div>
+        <div class="search-result">
+          <p>1 Searched result</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .chair-describtion-box {
+    height: 15rem;
+    margin-left: 3rem;
+    /* align-self: flex-start; */
+  }
+}
